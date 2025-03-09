@@ -7,12 +7,12 @@
 import streamlit as st
 from PyPDF2 import PdfReader
 import pandas as pd
+import matplotlib
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-import matplotlib
 
-#file = r"C:\Users\Navanetha\Desktop\Gaya3\AICTE Project\Gayathri Kaleri.pdf"
+file = r"C:\Users\Gayatri\Desktop\Gaya3\AICTE Project\Gayathri_Kaleri.pdf"
 
 # Function to extract text from PDF
 
