@@ -1,8 +1,8 @@
-#pip install streamlit
-#pip install matplotlib
-#pip install PyPDF2
-#pip install pandas
-#pip install scikit-learn
+!pip install streamlit
+!pip install matplotlib
+!pip install PyPDF2
+!pip install pandas
+!pip install scikit-learn
 
 import streamlit as st
 from PyPDF2 import PdfReader
